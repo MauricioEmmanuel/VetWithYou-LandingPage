@@ -1,0 +1,108 @@
+body {
+  justify-content: center;
+  user-select: none;
+  background-image: url("../assets/donky.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#root {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.button-interactive:hover {
+  background-color: aliceblue !important;
+  color: black !important;
+  font-size: 1.5em;
+  transition: font-size 0.2s linear;
+}
+
+.text-color-black {
+  color: black !important;
+}
+
+.text-color-white {
+  color: white !important;
+}
+
+.text-large {
+  font-size: 3.2em;
+  line-height: 1.2em;
+}
+
+.text-mid {
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.text-normal {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.text-color-gray {
+  color: gray;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-vertical-center {
+  padding: 70px 0;
+}
+
+.border-green {
+  border: 3px solid green;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.bg-gray {
+  background-color: rgb(231, 231, 231);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-aliceblue-60 {
+  background-color: rgba(240, 248, 255, 0.60) !important;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.section-center {
+  min-height: 40vh !important;
+  padding: 60px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.row-regular {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animation-fadeIn {
+  animation: fadeIn;
+  animation-duration: 1s;
+}
