@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Landing />
       <Footer />
-      {/* <CounterApp value={99}/> */}
     </div>
   );
 }
